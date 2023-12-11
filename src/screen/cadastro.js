@@ -1,6 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import { Text, View, StyleSheet, Button } from "react-native";
 
+
 export default function Cadastro() {
     const navigation = useNavigation();
     function home() {
