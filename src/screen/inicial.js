@@ -3,15 +3,15 @@ import { useNavigation } from '@react-navigation/native'
 export default function Inicial() {
     const navigation = useNavigation();
     function cadastro() {
-        navigation.navigate('Cadastro')
+        navigation.navigate('cadastro')
     }
     function login() {
-        navigation.navigate('Login')
+        navigation.navigate('login')
     }
     return (
         <View style={style.centrali}>
-            <Button onPress={() => login()} title="Login"/>
-            <Button onPress={() => cadastro()} title="Cadastro"/>
+            <Button onPress={() => login()} title="login"/>
+            <Button onPress={() => cadastro()} title="cadastro"/>
         </View>
     )
 }

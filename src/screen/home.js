@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, Button } from "react-native";
 export default function Home() {
     const navigation = useNavigation();
     function inicial () {
-        navigation.navigate('Inicial')
+        navigation.navigate('inicial')
     }
     return (
         <View style={style.centrali}>

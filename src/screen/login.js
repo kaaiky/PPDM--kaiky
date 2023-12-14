@@ -3,12 +3,12 @@ import { useNavigation } from "@react-navigation/native";
 export default function Login() {
     const navigation = useNavigation();
     function home() {
-        navigation.navigate('Home')
+        navigation.navigate('home')
     }
     return (
         <View style={style.centrali}>
-            <Text>Digitar a sua Senha:</Text>
-            <Text>Digitar o seu Email:</Text>
+            <Text>Usuario:</Text>
+            <Text>Senha:</Text>
             <Button onPress={() => home()} title="Entrar"/>
         </View>
     )

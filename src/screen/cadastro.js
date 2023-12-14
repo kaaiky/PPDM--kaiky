@@ -5,12 +5,13 @@ import { Text, View, StyleSheet, Button } from "react-native";
 export default function Cadastro() {
     const navigation = useNavigation();
     function home() {
-        navigation.navigate('Home')
+        navigation.navigate('home')
     }
     return (
         <View style={style.centrali}>
-            <Text>Digitar a sua Senha:</Text>
-            <Text>Digitar o seu Email:</Text>
+            <Text>Nome:</Text>
+            <Text>Email:</Text>
+            <Text>Senha:</Text>
             <Button onPress={() => home()} title="Cadastrar"/>
         </View>
     )
